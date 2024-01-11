@@ -1,0 +1,12 @@
+[Unit]
+Description=Developer API for Me
+After=network.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/my-engine-2.0/
+ExecStart=uvicorn --workers 4 app:app --port 8001
+
+[Install]
+WantedBy=multi-user.target

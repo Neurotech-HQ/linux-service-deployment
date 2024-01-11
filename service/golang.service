@@ -1,0 +1,11 @@
+[Unit]
+Description=My Go Whatsapp Service
+
+[Service]
+ExecStart=/home/ubuntu/whatsapp-deployment/bin/deploy
+
+Restart=always
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
