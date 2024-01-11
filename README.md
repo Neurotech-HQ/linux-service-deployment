@@ -8,7 +8,7 @@ Note: Create a production build for the service.
 
 - The box[virtual machine] to run the service in.
 - DNS settings pointing the domain(subdomain) Alias(A) to the ip address of the box.
-    Example test.yourdomain.com    A   188.34.98.87
+    Example test.yourdomain.com                A                       188.34.98.87
 
 - install nginx in the server, We will be using it as a reverse proxxy.
 
