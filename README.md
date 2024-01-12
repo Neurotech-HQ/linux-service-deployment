@@ -2,6 +2,8 @@
 
 To start you have to know how to run your service, regardless of the programming lamhuage used to produce it.
 
+This is assumed the linux machine has a debian based Operating System.
+
 Note: Create a production build for the service.
 
 ## Prerequisite
