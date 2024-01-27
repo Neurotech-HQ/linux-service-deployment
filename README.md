@@ -1,8 +1,8 @@
 # Linux service deployment
 
-To start you have to know how to run your service, regardless of the programming lamhuage used to produce it.
+To start you have to know how to run your service, regardless of the programming language used to produce it.
 
-This is assumed the linux machine has a debian based Operating System.
+Assuming the linux machine has a debian based Operating System. For other distros, what changes is the package manager and configuration files directories.
 
 Note: Create a production build for the service.
 
